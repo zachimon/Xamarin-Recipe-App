@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LoginNavigation.SearchPage" BackgroundColor="#FFF8E8">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LoginNavigation.SearchPage" BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Spacing="25" BackgroundColor="#FFF8E8">
             <StackLayout BackgroundColor="white">
                 <Image Source="Peppers.jpg" />
                 
@@ -17,19 +17,25 @@
                 </Grid>
                 <Label HorizontalTextAlignment="Center" x:Name="emptyField" Text="Please enter ingredients" IsVisible="false" TextColor="Red"/>
             </StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="2*"/>
-                    <RowDefinition Height="1.5*"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Label Text="Try searching for:" HorizontalOptions="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" TextColor="#990D35"/>
-                <Label Text="• Eggs" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
-            </Grid>
+            <StackLayout>
+                <Grid BackgroundColor="#FFF8E8" VerticalOptions="Start">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="2*"/>
+                        
+                        
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Try searching for:" HorizontalOptions="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" TextColor="#990D35"/>
+                    <Label Text="• Eggs" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+                    <Label Text="• Chicken, cheese" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center"/>
+                   
+                </Grid>
+                <Image Source="bento.jpg" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
