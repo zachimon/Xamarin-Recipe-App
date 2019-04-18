@@ -1,12 +1,9 @@
-LoginFlow
+# Xamarin Recipe App
 =========
-
-This sample demonstrates how to manipulate the navigation stack in order to only display the main page of the application once the user has successfully logged in.
-
-For more information about the sample see [Hierarchical Navigation](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/user-interface/navigation/hierarchical/).
+I built this application from scratch to become more proficient with Xamarin and using APIs. I use the food2fork API to search for and retrieve recipes and display them to the user. Work is currently ongoing to add functionality to the app.
 
 Author
 ------
 
-David Britch
+Zachary Harte
 # Xamarin-Recipe-App
