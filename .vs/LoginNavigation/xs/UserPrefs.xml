@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{F0AA2B49-1A31-4495-AACE-0DD5AAA80139}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LoginNavigation/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoginNavigation/SearchPage.xaml">
     <Files>
-      <File FileName="LoginNavigation/LoginPage.xaml" />
-      <File FileName="LoginNavigation/LoginPage.xaml.cs" Line="18" Column="36" />
       <File FileName="LoginNavigation/SearchPage.xaml" />
       <File FileName="LoginNavigation/SearchPage.xaml.cs" Line="16" Column="10" />
       <File FileName="LoginNavigation/MainPage.xaml.cs" Line="35" Column="77" />
       <File FileName="LoginNavigation/App.cs" Line="9" Column="16" />
       <File FileName="LoginNavigation/SignUpPage.xaml.cs" Line="26" Column="62" />
       <File FileName="LoginNavigation/MainPage.xaml" />
+      <File FileName="LoginNavigation/RecipePage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,12 +15,19 @@
           <Node name="LoginNavigation" expanded="True">
             <Node name="LoginNavigation" expanded="True">
               <Node name="LoginPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
               <Node name="RecipePage.xaml" expanded="True" />
-              <Node name="SearchPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True" selected="True" />
               <Node name="SignUpPage.xaml" expanded="True" />
             </Node>
-            <Node name="LoginNavigation.iOS" expanded="True" />
+            <Node name="LoginNavigation.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="LoginNavigation.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

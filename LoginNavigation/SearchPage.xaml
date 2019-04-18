@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LoginNavigation.SearchPage" BackgroundColor="#FFF8E8">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center">
-            <Label Text="Search by Ingredient(s)" HorizontalTextAlignment="Center" FontSize="24"/>
-            <Grid Margin="25">
+        <StackLayout>
+            <StackLayout BackgroundColor="white">
+                <Image Source="Peppers.jpg" />
+                
+                <Label Text="Search by Ingredients" HorizontalTextAlignment="Center" FontSize="24" TextColor="#990D35" FontAttributes="Bold"/>
+                <Label Text="(Feel free to search for one or more!)" HorizontalOptions="Center" TextColor="#D52941"/>
+                <Grid Margin="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="searchEntry" PlaceholderColor="#FCD581" Placeholder="Ingredients" Grid.Column="0"/>
+                    <Button TextColor="#D52941" Text="Search" Grid.Column="1" Pressed="OnSearchButtonClicked" />
+                </Grid>
+                <Label HorizontalTextAlignment="Center" x:Name="emptyField" Text="Please enter ingredients" IsVisible="false" TextColor="Red"/>
+            </StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="1.5*"/>
+                </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Entry x:Name="searchEntry" Placeholder="Ingredients" Grid.Column="0"/>
-                <Button Text="Search" Grid.Column="1" Pressed="OnSearchButtonClicked" />
+                <Label Text="Try searching for:" HorizontalOptions="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" TextColor="#990D35"/>
+                <Label Text="• Eggs" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
             </Grid>
-            <Label HorizontalTextAlignment="Center" x:Name="emptyField" Text="Please enter ingredients" IsVisible="false" TextColor="Red"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
