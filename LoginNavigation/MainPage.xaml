@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LoginNavigation.MainPage" Title="Search Results" BackgroundColor="#FFF8E8">
+    <ScrollView>
+        <ListView x:Name="listView" ItemSelected="OnItemSelected" BackgroundColor="#FFF8E8" HasUnevenRows="true">
+            <ListView.ItemTemplate>
+                <DataTemplate>  
+                    <ViewCell Height="120">
+                            <Grid>      
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="3*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="4*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding image_url}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFill"/>
+                                <Label Text="{Binding title}" Grid.Row="0" Grid.Column="1" TextColor="#990D35" FontSize="22" FontAttributes="Bold" LineBreakMode="WordWrap"/>
+                                <Label Text="{Binding publisher, StringFormat='From {0:N}'}" Grid.Row="1" Grid.Column="1"/>
+                            </Grid>
+                    </ViewCell>
+                    <!--<ImageCell Height="60" TextColor="#990D35" Text="{Binding title}" Detail="{Binding publisher, StringFormat='From {0:N}'}" ImageSource="{Binding image_url}"></ImageCell> --> 
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ScrollView>
+</ContentPage>

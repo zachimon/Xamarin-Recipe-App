@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LoginNavigation.SearchPage" BackgroundColor="#FFF8E8">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Search by Ingredient(s)" HorizontalTextAlignment="Center" FontSize="24"/>
+            <Grid Margin="25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Entry x:Name="searchEntry" Placeholder="Ingredients" Grid.Column="0"/>
+                <Button Text="Search" Grid.Column="1" Pressed="OnSearchButtonClicked" />
+            </Grid>
+            <Label HorizontalTextAlignment="Center" x:Name="emptyField" Text="Please enter ingredients" IsVisible="false" TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

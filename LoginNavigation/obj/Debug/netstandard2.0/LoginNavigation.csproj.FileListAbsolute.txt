@@ -1,0 +1,15 @@
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/bin/Debug/netstandard2.0/LoginNavigation.deps.json
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/bin/Debug/netstandard2.0/LoginNavigation.dll
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/bin/Debug/netstandard2.0/LoginNavigation.pdb
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginNavigation.csprojAssemblyReference.cache
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginNavigation.csproj.CoreCompileInputs.cache
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginNavigation.AssemblyInfoInputs.cache
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginNavigation.AssemblyInfo.cs
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginNavigation.dll
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/LoginNavigation.pdb
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/RecipePage.xaml.g.cs
+/Users/zacharyharte/Downloads/LoginFlow/LoginNavigation/obj/Debug/netstandard2.0/SearchPage.xaml.g.cs
